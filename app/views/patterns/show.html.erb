@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Product:</b>
+  <%= @pattern.product_id %>
+</p>
+
+<p>
+  <b>Brand:</b>
+  <%= @pattern.brand_id %>
+</p>
+
+<p>
+  <b>Package:</b>
+  <%= @pattern.package_id %>
+</p>
+
+<p>
+  <b>Unit:</b>
+  <%= @pattern.unit_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_pattern_path(@pattern) %> |
+<%= link_to 'Back', patterns_path %>

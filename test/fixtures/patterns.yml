@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  product_id: 1
+  brand_id: 1
+  package_id: 1
+  unit_id: 1
+
+two:
+  product_id: 1
+  brand_id: 1
+  package_id: 1
+  unit_id: 1
